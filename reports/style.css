@@ -1,0 +1,117 @@
+/* Visibilidad en el login */
+html {
+    visibility: visible !important;
+}
+
+html.autorizado {
+    visibility: visible !important;
+}
+
+/* Títulos */
+h1, h2, h3, h4 {
+    color: #002C5F !important;
+    font-weight: bold !important;
+    margin-top: 24px !important;
+    margin-bottom: 12px !important;
+}
+
+/* Cuerpo */
+body {
+    font-family: 'Segoe UI', sans-serif !important;
+    font-size: 14px !important;
+    max-width: 1000px !important;
+    margin: auto !important;
+    background: white !important;
+    color: black !important;
+    line-height: 1.6 !important;
+    padding: 20px !important;
+}
+
+/* Código */
+code {
+    background-color: #c1bb0046 !important;
+    color: #403B65 !important;
+}
+
+/* Tablas */
+table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 20px 0 !important;
+    font-size: 14px !important;
+}
+
+th {
+    background-color: #002C5F !important;
+    color: white !important;
+    font-weight: bold !important;
+    padding: 8px !important;
+    text-align: center !important;
+    border-top: 1px solid #ccc !important;
+    border-bottom: 1px solid #ccc !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+td {
+    padding: 8px !important;
+    border-top: 1px solid #ddd !important;
+    border-bottom: 1px solid #ddd !important;
+    text-align: center !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+blockquote {
+    border-left: 10px solid #4F2D7F !important;
+    background-color: #c9cac840 !important;
+    padding: 10px 16px !important;
+    margin: 16px 0 !important;
+    color: #000000 !important;
+    font-style: normal !important;
+}
+
+details.bloque-colapsable {
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+details.bloque-colapsable[open] {
+    background-color: #ffffff;
+    border-color: #4F2D7F;
+}
+
+/* Barra lateral flotante */
+#barra-lateral {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    width: 220px;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    font-size: 14px;
+}
+#barra-lateral a {
+    display: block;
+    margin: 6px 0;
+    color: #003366;
+    text-decoration: none;
+}
+#barra-lateral a:hover {
+    text-decoration: underline;
+}
+
+/* Highlight temporal */
+.summary-highlight {
+    background-color: #fff9c4;
+    transition: background-color 2s ease;
+}
